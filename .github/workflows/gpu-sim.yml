@@ -18,7 +18,7 @@ on:
   pull_request:
     branches: [master]
   push:
-    branches: [master]
+    branches: [master, verify-gpu-sim]
 
 permissions:
   contents: read
